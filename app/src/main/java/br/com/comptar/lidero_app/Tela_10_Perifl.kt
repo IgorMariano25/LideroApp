@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 class Tela_10_Perifl : AppCompatActivity (){
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
-            setContentView(R.layout.activity_main)
+            supportActionBar?.hide()
+            setContentView(R.layout.activity_tela_10_perfil)
         }
-    }
 }
