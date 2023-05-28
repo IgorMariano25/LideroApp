@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Tela_10_Perifl"
+            android:name=".Tela10Perifl"
             android:exported="true">
         </activity>
     </application>
