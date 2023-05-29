@@ -34,22 +34,25 @@
         android:gravity="center_horizontal"
         android:text="@string/email_perfil"
         android:textAlignment="center"
-        android:textColor="@android:color/black"
+        android:textColor="@color/Lidero_Carbon_Tranparencia_80_porcento"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/Barra_De_Navegacao_Inferior"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ivVetorEmail"
         app:layout_constraintTop_toBottomOf="@+id/tvOla_Nome"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.095" />
 
     <ImageView
         android:id="@+id/ivVetorEmail"
         android:layout_width="40dp"
         android:layout_height="27dp"
-        app:srcCompat="@drawable/vetor_email"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="46dp" />
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOla_Nome"
+        app:srcCompat="@drawable/vetor_email" />
 
     <TextView
         android:id="@+id/tvSeuPerfil"
@@ -129,19 +132,31 @@
         android:id="@+id/tvConfiguracoesDaConta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="23dp"
-        android:layout_marginBottom="380dp"
+        android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
         android:text="@string/textoConfiguraçõesDaConta"
         android:textAlignment="center"
         android:textColor="@color/Lidero_Carbon_Tranparencia_80_porcento"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/Barra_De_Navegacao_Inferior"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvResultadoTrilhaRecomendada" />
+
+    <ImageView
+        android:id="@+id/ivSetaDireita1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="291dp"
+        android:baselineAlignBottom="false"
+        app:layout_constraintBottom_toTopOf="@+id/Barra_De_Navegacao_Inferior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.772"
+        app:layout_constraintStart_toEndOf="@+id/tvInformacoesDaConta"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854"
+        app:srcCompat="@drawable/vetor_seta_direita_menu" />
 
     <TextView
         android:id="@+id/tvInformacoesDaConta"
@@ -151,7 +166,7 @@
         android:layout_marginTop="2dp"
         android:layout_marginBottom="292dp"
         android:gravity="center_horizontal"
-        android:text="Informações da Conta"
+        android:text="@string/InformaçõesDaConta"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="22sp"
@@ -182,14 +197,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="163dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="4dp"
         android:baselineAlignBottom="false"
         app:layout_constraintBottom_toTopOf="@+id/Barra_De_Navegacao_Inferior"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toEndOf="@+id/tvOutrosPerfis"
         app:layout_constraintTop_toBottomOf="@+id/ivSetaDireita3"
-        app:layout_constraintVertical_bias="0.082"
+        app:layout_constraintVertical_bias="0.065"
         app:srcCompat="@drawable/vetor_seta_direita_menu" />
 
     <ImageView
@@ -197,12 +212,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="172dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="4dp"
         android:baselineAlignBottom="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintHorizontal_bias="0.32"
         app:layout_constraintStart_toEndOf="@+id/tvSobreALidero"
         app:layout_constraintTop_toBottomOf="@+id/ivSetaDireita4"
+        app:srcCompat="@drawable/vetor_seta_direita_menu" />
+
+    <ImageView
+        android:id="@+id/ivSetaDireita6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="197dp"
+
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="80dp"
+        android:baselineAlignBottom="false"
+        app:layout_constraintBottom_toTopOf="@+id/Barra_De_Navegacao_Inferior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvFaleConosco"
+        app:layout_constraintTop_toBottomOf="@+id/ivSetaDireita5"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/vetor_seta_direita_menu" />
 
     <TextView
@@ -221,22 +254,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvInformacoesDaConta"
         app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/ivSetaDireita6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="124dp"
-        android:baselineAlignBottom="false"
-        app:layout_constraintBottom_toTopOf="@+id/Barra_De_Navegacao_Inferior"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/tvFaleConosco"
-        app:layout_constraintTop_toBottomOf="@+id/ivSetaDireita5"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/vetor_seta_direita_menu" />
 
     <TextView
         android:id="@+id/tvSobreALidero"
@@ -260,6 +277,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="96dp"
+        android:layout_marginEnd="4dp"
         android:baselineAlignBottom="false"
         app:layout_constraintBottom_toTopOf="@+id/Barra_De_Navegacao_Inferior"
         app:layout_constraintEnd_toEndOf="parent"
@@ -274,14 +292,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="236dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="216dp"
         android:gravity="center_horizontal"
         android:text="Outros perfis"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/Barra_De_Navegacao_Inferior"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNotificacoesDeEmail" />
 
     <TextView
         android:id="@+id/tvAjudaESuporte"
@@ -332,27 +352,11 @@
         app:layout_constraintTop_toBottomOf="@+id/tvSobreALidero"
         app:layout_constraintVertical_bias="0.0" />
 
-
-    <ImageView
-        android:id="@+id/ivSetaDireita1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="291dp"
-        android:baselineAlignBottom="false"
-        app:layout_constraintBottom_toTopOf="@+id/Barra_De_Navegacao_Inferior"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.772"
-        app:layout_constraintStart_toEndOf="@+id/tvInformacoesDaConta"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.854"
-        app:srcCompat="@drawable/vetor_seta_direita_menu" />
-
     <Button
         android:id="@+id/btnSair"
         android:layout_width="225dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="28dp"
         android:background="@drawable/style_botao_sair"
         android:text="@string/Botao_Sair_Do_Aplicativo"
         android:textColor="@color/Lidero_Laranja_Vivo"
@@ -449,8 +453,8 @@
         android:id="@+id/tvPerfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="83dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginEnd="56dp"
         android:elevation="4dp"
         android:gravity="center_horizontal"
         android:text="@string/Perfil"
@@ -458,7 +462,6 @@
         android:textColor="@color/Lidero_Amarelo_Ouro"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/tvCursos"
         app:layout_constraintTop_toBottomOf="@+id/ivVetorPerfil" />
 
