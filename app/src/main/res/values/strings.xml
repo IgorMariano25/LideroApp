@@ -13,5 +13,16 @@
     <string name="Menu">Menu</string>
     <string name="Cursos">Cursos</string>
     <string name="Perfil">Perfil</string>
-    <string name="InformaçõesDaConta">Informações da conta</string>>
+    <string name="InformaçõesDaConta">Informações da conta</string>
+    <string name="textoMeusCursos">Meus cursos</string>
+    <string name="textoTrilhas">Trilhas</string>
+    <string name="textoMiniCurso">Minicurso</string>
+    <string name="texto50PorcentoConcluido">50% concluído</string>
+    <string name="texto25PorcentoConcluido">25% concluído</string>
+    <string name="textoCursoComunicacaoEOratoriaFundamentosEPostura">Comunicação e oratória:
+            Fundamentos e postura
+    </string>
+    <string name="textoCursoFundamentosDoEmpreendedorismo">Fundamentos do
+            empreendedorismo</string>
+    <string name="textoCursoComunicacaoEOratoria">Comunicação e oratria</string>
 </resources>
