@@ -19,10 +19,15 @@
     <string name="textoMiniCurso">Minicurso</string>
     <string name="texto50PorcentoConcluido">50% concluído</string>
     <string name="texto25PorcentoConcluido">25% concluído</string>
+    <string name="textoCursoComunicacaoEOratoriaVencendoMedosEInibicoes">Comunicação e oratória:
+            Vencendo medos e inibições
+    </string>
     <string name="textoCursoComunicacaoEOratoriaFundamentosEPostura">Comunicação e oratória:
             Fundamentos e postura
     </string>
+
     <string name="textoCursoFundamentosDoEmpreendedorismo">Fundamentos do
             empreendedorismo</string>
     <string name="textoCursoComunicacaoEOratoria">Comunicação e oratria</string>
+
 </resources>
