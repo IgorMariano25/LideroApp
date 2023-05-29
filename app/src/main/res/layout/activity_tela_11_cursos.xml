@@ -41,6 +41,55 @@
         app:layout_constraintTop_toTopOf="@+id/Barra_De_Navegacao_Inferior"
         app:layout_constraintVertical_bias="0.324" />
 
+    <TextView
+        android:id="@+id/tvMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:elevation="4dp"
+        android:gravity="center_horizontal"
+        android:text="@string/Menu"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivVetorHome"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvCursos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="93dp"
+        android:layout_marginBottom="3dp"
+        android:elevation="4dp"
+        android:gravity="center_horizontal"
+        android:text="@string/Cursos"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Barra_De_Navegacao_Inferior"
+        app:layout_constraintStart_toEndOf="@+id/tvMenu"
+        app:layout_constraintTop_toBottomOf="@+id/ivVetorCursos"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginEnd="56dp"
+        android:elevation="4dp"
+        android:gravity="center_horizontal"
+        android:text="@string/Perfil"
+        android:textAlignment="center"
+        android:textColor="@color/Lidero_Amarelo_Ouro"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCursos"
+        app:layout_constraintTop_toBottomOf="@+id/ivVetorPerfil" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/Barra_De_Navegacao_Inferior"
         android:layout_width="447dp"
