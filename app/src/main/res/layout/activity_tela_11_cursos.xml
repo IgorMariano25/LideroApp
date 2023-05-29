@@ -3,6 +3,43 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/ivVetorHome"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:elevation="4dp"
+        android:src="@drawable/vetor_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Barra_De_Navegacao_Inferior"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <ImageView
+        android:id="@+id/ivVetorCursos"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:elevation="4dp"
+        android:src="@drawable/vetor_play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Barra_De_Navegacao_Inferior"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <ImageView
+        android:id="@+id/ivVetorPerfil"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:elevation="4dp"
+        android:src="@drawable/vetor_perfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Barra_De_Navegacao_Inferior"
+        app:layout_constraintVertical_bias="0.324" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/Barra_De_Navegacao_Inferior"
