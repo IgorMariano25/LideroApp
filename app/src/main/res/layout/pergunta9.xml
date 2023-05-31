@@ -32,13 +32,13 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/contQuestao"
-        app:srcCompat="@drawable/porcentagem20" />
+        app:srcCompat="@drawable/porcentagem70" />
 
     <TextView
         android:id="@+id/contQuestao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Questão 4/12"
+        android:text="Questão 9/12"
         android:textColor="@color/white"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/retanAmarelo"
