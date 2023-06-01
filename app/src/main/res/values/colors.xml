@@ -13,4 +13,5 @@
     <color name="Minicurso_Vermelho">#DC0000</color>
     <color name="Minicurso_Azul">#1E62AE</color>
     <color name="Minicurso_Verde">#409833</color>
+    <color name="btn_resposta">#F9F9F9</color>
 </resources>

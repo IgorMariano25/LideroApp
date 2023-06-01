@@ -12,7 +12,7 @@
         android:theme="@style/Theme.LideroApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".TelaCadastro"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,6 +28,19 @@
             android:name=".Tela11Cursos"
             android:exported="true">
         </activity>
+
+        <activity android:name=".Pergunta1Activity"/>
+        <activity android:name=".Pergunta2Activity"/>
+        <activity android:name=".Pergunta3Activity"/>
+        <activity android:name=".Pergunta4Activity"/>
+        <activity android:name=".Pergunta5Activity"/>
+        <activity android:name=".Pergunta6Activity"/>
+        <activity android:name=".Pergunta7Activity"/>
+        <activity android:name=".Pergunta8Activity"/>
+        <activity android:name=".Pergunta9Activity"/>
+        <activity android:name=".Pergunta10Activity"/>
+        <activity android:name=".Pergunta11Activity"/>
+        <activity android:name=".Pergunta12Activity"/>
     </application>
 
 </manifest>
