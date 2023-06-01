@@ -1,14 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Tela11Cursos">
+
+    <TextView
+        android:id="@+id/tvMeusCursos"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/textoMeusCursos"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCursos"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="500dp"
+        android:backgroundTint="@color/Lidero_Amarelo_Ouro"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:cornerRadius="100dp"
+        android:textStyle="bold|italic"
+        android:text="@string/Cursos"
+        app:layout_constraintBottom_toTopOf="@+id/Barra_De_Navegacao_Inferior"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMeusCursos"
+        app:layout_constraintVertical_bias="0.263"
+        app:strokeWidth="1.5dp"/>
+
+    <Button
+        android:id="@+id/btnTrilhas"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="500dp"
+        android:backgroundTint="@color/Lidero_Dourado_Nobre_Tranparencia_50_porcento"
+        android:text="@string/textoTrilhas"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/Barra_De_Navegacao_Inferior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnCursos"
+        app:layout_constraintTop_toBottomOf="@+id/tvMeusCursos"
+        app:layout_constraintVertical_bias="0.264"
+        app:strokeWidth="1.5dp"/>
+
+    <ImageView
+        android:id="@+id/ivLupaDePesquisa"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvMeusCursos"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vetor_lupa" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="155dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCursos"
+        app:srcCompat="@drawable/image_curso_comunicacao_oratoria_vencendo_medos_e_inibicoes" />
+
+    <TextView
+        android:id="@+id/tvMinicurso_Comunicacao_e_oratoria_Vencendo_medos_e_inibicoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="180dp"
+        android:text="@string/textoMiniCurso"
+        android:textColor="@color/Minicurso_Vermelho"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="144dp"
+        android:text="@string/texto50PorcentoConcluido"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/tvMinicurso_Comunicacao_e_oratoria_Vencendo_medos_e_inibicoes" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="213dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/textoCursoComunicacaoEOratoriaVencendoMedosEInibicoes"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/tvMinicurso_Comunicacao_e_oratoria_Vencendo_medos_e_inibicoes" />
+
+    <ImageView
+        android:id="@+id/imBarraDeProgressoCursoComunicacaoEOratoria"
+        android:layout_width="212dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:srcCompat="@drawable/vetor_barra_50_por_cento" />
+
+    <ImageView
+        android:id="@+id/ivCurso_comunicacao_e_oratoria_fundamentos_e_postura"
+        android:layout_width="155dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/imagem_curso_comunicacao_e_oratoria_fundamentos_e_postura" />
+
+
+    <TextView
+        android:id="@+id/tvMinicurso_Comunicacao_e_oratoria_Fundamentos_e_Postura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="112dp"
+        android:text="@string/textoMiniCurso"
+        android:textColor="@color/Minicurso_Vermelho"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivCursoComunicacao_e_oratoria_fundamento_e_postuta"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCurso_Comunicacao_e_Oratoria_Fundamentos_e_Postura"
+        android:layout_width="213dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/textoCursoComunicacaoEOratoriaFundamentosEPostura"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/ivCursoComunicacao_e_oratoria_fundamento_e_postuta"
+        app:layout_constraintTop_toBottomOf="@+id/tvMinicurso_Comunicacao_e_oratoria_Fundamentos_e_Postura" />
+
+    <ImageView
+        android:id="@+id/ivCursoComunicacao_e_oratoria_fundamento_e_postuta"
+        android:layout_width="155dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/imagem_curso_comunicacao_e_oratoria_fundamentos_e_postura" />
+
+    <ImageView
+        android:id="@+id/imBarraDeProgressoCursoComunicacaoEOratoriaFundamentosEPostura"
+        android:layout_width="212dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/ivCursoComunicacao_e_oratoria_fundamento_e_postuta"
+        app:layout_constraintTop_toBottomOf="@+id/tvCurso_Comunicacao_e_Oratoria_Fundamentos_e_Postura"
+        app:srcCompat="@drawable/vetor_barra_25_por_cento" />
+
+    <TextView
+        android:id="@+id/tv25_por_cento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="96dp"
+        android:text="@string/texto25PorcentoConcluido"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ivCursoComunicacao_e_oratoria_fundamento_e_postuta"
+        app:layout_constraintTop_toBottomOf="@+id/imBarraDeProgressoCursoComunicacaoEOratoriaFundamentosEPostura" />
+
     <ImageView
         android:id="@+id/ivVetorHome"
         android:layout_width="75dp"
         android:layout_height="60dp"
         android:elevation="4dp"
         android:src="@drawable/vetor_home"
+        android:contentDescription="@string/VetorCasaBranca"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.101"
@@ -22,6 +234,7 @@
         android:layout_height="60dp"
         android:elevation="4dp"
         android:src="@drawable/vetor_play"
+        android:contentDescription="@string/VetorPlayCursosBranco"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,6 +247,7 @@
         android:layout_height="60dp"
         android:elevation="4dp"
         android:src="@drawable/vetor_perfil"
+        android:contentDescription="@string/VetorPerfiAmarelo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.88"
@@ -45,7 +259,7 @@
         android:id="@+id/tvMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="54dp"
         android:elevation="4dp"
         android:gravity="center_horizontal"
         android:text="@string/Menu"
@@ -61,7 +275,7 @@
         android:id="@+id/tvCursos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="93dp"
+        android:layout_marginStart="85dp"
         android:layout_marginBottom="3dp"
         android:elevation="4dp"
         android:gravity="center_horizontal"
@@ -78,8 +292,7 @@
         android:id="@+id/tvPerfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginStart="30dp"
         android:elevation="4dp"
         android:gravity="center_horizontal"
         android:text="@string/Perfil"
@@ -92,8 +305,8 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/Barra_De_Navegacao_Inferior"
-        android:layout_width="447dp"
-        android:layout_height="97dp"
+        android:layout_width="412dp"
+        android:layout_height="100dp"
         android:background="@color/Lidero_Carbon"
         android:gravity="center_horizontal"
         android:minHeight="?attr/actionBarSize"
