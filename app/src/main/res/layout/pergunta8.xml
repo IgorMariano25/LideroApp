@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lidero_cinza">
+    android:background="@color/Lidero_Carbon">
 
     <TextView
         android:id="@+id/pergunta"
@@ -52,7 +52,7 @@
         android:id="@+id/Arrowback"
         android:layout_width="42dp"
         android:layout_height="38dp"
-        android:backgroundTint="@color/lidero_cinza"
+        android:backgroundTint="@color/Lidero_Carbon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
@@ -147,7 +147,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="640dp"
         android:width="210dp"
-        android:backgroundTint="@color/lidero_cinza"
+        android:backgroundTint="@color/Lidero_Carbon"
         android:text="Confirmar resposta"
         android:textColor="@color/white"
         app:cornerRadius="10dp"
@@ -160,7 +160,7 @@
         android:id="@+id/btnExit"
         android:layout_width="37dp"
         android:layout_height="36dp"
-        android:backgroundTint="@color/lidero_cinza"
+        android:backgroundTint="@color/Lidero_Carbon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.93"
