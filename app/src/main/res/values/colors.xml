@@ -8,7 +8,8 @@
     <color name="Lidero_Vermelho_Nobre">#B10000</color>
     <color name="Lidero_Carbon">#333333</color>
     <color name="Lidero_Carbon_Tranparencia_80_porcento">#CC333333</color>
-    <color name="Lidero_Dourado_Nober">#DAA520</color>
+    <color name="Lidero_Dourado_Nobre">#DAA520</color>
+    <color name="Lidero_Dourado_Nobre_Tranparencia_50_porcento">#B3DAA520</color>
     <color name="Minicurso_Vermelho">#DC0000</color>
     <color name="Minicurso_Azul">#1E62AE</color>
     <color name="Minicurso_Verde">#409833</color>
