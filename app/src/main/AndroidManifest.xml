@@ -20,6 +20,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Pergunta1Activity"/>
+        <activity android:name=".Pergunta2Activity"/>
+        <activity android:name=".Pergunta3Activity"/>
+        <activity android:name=".Pergunta4Activity"/>
+        <activity android:name=".Pergunta5Activity"/>
+        <activity android:name=".Pergunta6Activity"/>
+        <activity android:name=".Pergunta7Activity"/>
+        <activity android:name=".Pergunta8Activity"/>
+        <activity android:name=".Pergunta9Activity"/>
+        <activity android:name=".Pergunta10Activity"/>
+        <activity android:name=".Pergunta11Activity"/>
+        <activity android:name=".Pergunta12Activity"/>
     </application>
 
 </manifest>
