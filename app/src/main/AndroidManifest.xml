@@ -20,6 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Tela10Perifl"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Tela11Cursos"
+            android:exported="true">
+        </activity>
 
         <activity android:name=".Pergunta1Activity"/>
         <activity android:name=".Pergunta2Activity"/>

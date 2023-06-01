@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Lidero-App</string>
+    <string name="titulo_boas_vindas"><font color="#000000">Olá,</font> Danilo</string>
+    <string name="email_perfil">DaniloCR@exemplo.com</string>
+    <string name="textoSeuPerfil">Seu perfil</string>
+    <string name="resultadoPerfil">Gerador</string>
+    <string name="textoTrilhaRecomendada">Trilha Recomendada</string>
+    <string name="TextoResultadoTrilhaRecomendada">Chegando com tudo 🚀</string>
+    <string name="textoConfiguraçõesDaConta">Configurações da Conta</string>
+    <string name="Sobre_a_Lidero"><u>Sobre a Lidero</u></string>
+    <string name="Fale_conosco"><u>Fale conosco</u></string>
+    <string name="Botao_Sair_Do_Aplicativo">Sair</string>
+    <string name="Menu">Menu</string>
+    <string name="Cursos">Cursos</string>
+    <string name="Perfil">Perfil</string>
+    <string name="InformaçõesDaConta">Informações da conta</string>
+    <string name="textoMeusCursos">Meus cursos</string>
+    <string name="textoTrilhas">Trilhas</string>
+    <string name="textoMiniCurso">Minicurso</string>
+    <string name="texto50PorcentoConcluido">50% concluído</string>
+    <string name="texto25PorcentoConcluido">25% concluído</string>
+    <string name="textoCursoComunicacaoEOratoriaVencendoMedosEInibicoes">Comunicação e oratória:
+Vencendo medos e inibições
+    </string>
+    <string name="textoCursoComunicacaoEOratoriaFundamentosEPostura">Comunicação e oratória:
+Fundamentos e postura
+    </string>
+
+    <string name="textoCursoFundamentosDoEmpreendedorismo">Fundamentos do
+            empreendedorismo</string>
+    <string name="textoCursoComunicacaoEOratoria">Comunicação e oratria</string>
+    <string name="VetorCasaBranca">VetorCasaBranca</string>
+    <string name="VetorPlayCursosBranco">VetorPlayCursosBranco</string>
+    <string name="VetorPerfiAmarelo">VetorPerfiAmarelo</string>
 </resources>
