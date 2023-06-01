@@ -355,15 +355,19 @@
     <Button
         android:id="@+id/btnSair"
         android:layout_width="225dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="28dp"
-        android:background="@drawable/style_botao_sair"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/white"
         android:text="@string/Botao_Sair_Do_Aplicativo"
         android:textColor="@color/Lidero_Laranja_Vivo"
-        android:textSize="20dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:cornerRadius="100dp"
         app:layout_constraintBottom_toTopOf="@+id/Barra_De_Navegacao_Inferior"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeWidth="2dp" />
 
     <ImageView
         android:id="@+id/ivVetorLogout"
