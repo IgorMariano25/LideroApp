@@ -8,18 +8,17 @@
 
     <TextView
         android:id="@+id/pergunta"
-        android:layout_width="252dp"
-        android:layout_height="57dp"
+        android:layout_width="275dp"
+        android:layout_height="83dp"
         android:text="Prefiro atuar focado na ação e em projetos grandiosos"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.268" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <ImageView
         android:id="@+id/porcentagem"
