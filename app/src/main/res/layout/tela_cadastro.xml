@@ -244,7 +244,7 @@
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/cinza_lidero"
+        android:backgroundTint="@color/Lidero_Carbon"
         android:text="Criar conta!"
         android:textColor="@color/white"
         app:cornerRadius="10dp"
