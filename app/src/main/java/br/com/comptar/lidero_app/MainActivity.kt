@@ -1,7 +1,6 @@
 package br.com.comptar.lidero_app
 
 import android.os.Bundle
-import android.view.Window
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
