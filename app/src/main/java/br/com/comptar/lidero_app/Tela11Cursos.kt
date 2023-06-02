@@ -1,12 +1,12 @@
 package br.com.comptar.lidero_app
 
 import android.os.Bundle
-import android.view.Window
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class Tela11Cursos : AppCompatActivity (){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        supportActionBar?.hide()
+        setContentView(R.layout.activity_tela_11_cursos)
     }
 }
