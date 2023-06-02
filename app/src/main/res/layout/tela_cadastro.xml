@@ -5,6 +5,7 @@
     android:id="@+id/text"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     tools:context=".TelaCadastro">
 
     <ImageView
@@ -26,9 +27,10 @@
         android:inputType="textEmailAddress"
         android:text="E-mail"
         android:textAlignment="center"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.45" />
@@ -40,6 +42,7 @@
         android:ems="10"
         android:inputType="textPassword"
         android:text="Senha"
+        android:textColor="@color/black"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,7 +57,9 @@
         android:layout_height="67dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textAlignment="center"
         android:text="Nome completo..."
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.451"
@@ -69,6 +74,8 @@
         android:ems="10"
         android:inputType="phone"
         android:text="Telefone"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.445"
@@ -84,24 +91,28 @@
         android:hint="Insira a data"
         android:inputType="date"
         android:labelFor="@+id/labelDate"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.651" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="130dp"
-        android:layout_height="27dp"
+        android:layout_width="216dp"
+        android:layout_height="31dp"
         android:text="Data de nascimento:"
+        android:textColor="@color/Lidero_Carbon_Tranparencia_80_porcento"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintHorizontal_bias="0.138"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649" />
+        app:layout_constraintVertical_bias="0.648" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -257,8 +268,9 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
+        android:textSize="18sp"
         android:text="Qual seu nível profissional:"
+        android:textColor="@color/Lidero_Carbon_Tranparencia_80_porcento"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
