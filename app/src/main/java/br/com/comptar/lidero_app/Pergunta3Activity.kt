@@ -1,6 +1,7 @@
 package br.com.comptar.lidero_app
 
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
@@ -16,5 +17,17 @@ class Pergunta3Activity : AppCompatActivity() {
             val intent = Intent(this@Pergunta3Activity, Pergunta4Activity::class.java)
             startActivity(intent)
         }
+    }
+
+    private fun HabiltarButtonConfirmarResposta() {
+        btnConfResp.setTextColor(Color.WHITE)
+        btnConfResp.setBackgroundColor(cor_verde_btn_habilitado)
+        btnConfResp.isEnabled = true
+    }
+
+    private fun DesabilitarButtonConfirmarRespoasta() {
+        btnConfResp.setTextColor(Color.WHITE)
+        btnConfResp.setBackgroundColor(cor_cinza_btn_desabilitado)
+        btnConfResp.isEnabled = false
     }
 }
