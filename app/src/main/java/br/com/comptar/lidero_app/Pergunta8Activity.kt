@@ -26,9 +26,9 @@ class Pergunta8Activity : AppCompatActivity() {
         btnConfirmaRespostaActivityPergunta1.isEnabled = true
     }
 
-    private fun DesabilitarButtonConfirmarRespoasta() {
-        btnConfResp.setTextColor(Color.WHITE)
-        btnConfResp.setBackgroundColor(cor_cinza_btn_desabilitado)
-        btnConfResp.isEnabled = false
-    }
+   private fun DesabilitarButtonConfirmarRespoasta() {
+       btnConfResp.setTextColor(Color.WHITE)
+       btnConfResp.setBackgroundColor(cor_cinza_btn_desabilitado)
+       btnConfResp.isEnabled = false
+   }
 }
