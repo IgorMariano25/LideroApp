@@ -10,6 +10,9 @@ import androidx.core.content.ContextCompat.startActivity
 
 class Pergunta1Activity : AppCompatActivity() {
 
+    private lateinit var  btnConfirmaRespostaActivityPergunta1 : Button
+    private var selectedButton: View? = null
+
     //Criando cor para o botão confirmar resposta desabilitado
     val cor_cinza_btn_desabilitado = Color.rgb(203,203,203)
     //Criando cor para o botão confirmar resposta habilitado
