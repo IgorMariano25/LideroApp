@@ -17,7 +17,7 @@ class Pergunta2Activity : AppCompatActivity() {
         setContentView(R.layout.pergunta2)
 
         btnConfirmaRespostabActivityPergunta2 = findViewById<Button>(R.id.btnConfResp)
-        btnActivityPergunta1.setOnClickListener {
+        btnConfirmaRespostabActivityPergunta2.setOnClickListener {
             //Exemplo de Intent Explicita
             val intent = Intent(this@Pergunta2Activity, Pergunta3Activity::class.java)
             startActivity(intent)
