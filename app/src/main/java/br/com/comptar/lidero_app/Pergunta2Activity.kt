@@ -16,7 +16,7 @@ class Pergunta2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pergunta2)
 
-        btnActivityPergunta2 = findViewById<Button>(R.id.btnConfResp)
+        btnConfirmaRespostabActivityPergunta2 = findViewById<Button>(R.id.btnConfResp)
         btnActivityPergunta1.setOnClickListener {
             //Exemplo de Intent Explicita
             val intent = Intent(this@Pergunta2Activity, Pergunta3Activity::class.java)
@@ -26,14 +26,14 @@ class Pergunta2Activity : AppCompatActivity() {
 
     //Função que habilita o botão de confirmar resposta quando alguma opção é selecionada
     private fun HabiltarButtonConfirmarResposta() {
-        btnActivityPergunta2.setTextColor(Color.WHITE)
-        btnActivityPergunta2.setBackgroundColor(cor_verde_btn_habilitado)
-        btnActivityPergunta2.isEnabled = true
+        btnConfirmaRespostabActivityPergunta2.setTextColor(Color.WHITE)
+        btnConfirmaRespostabActivityPergunta2.setBackgroundColor(cor_verde_btn_habilitado)
+        btnConfirmaRespostabActivityPergunta2.isEnabled = true
     }
 
     private fun DesabilitarButtonConfirmarRespoasta() {
-        btnActivityPergunta2.setTextColor(Color.WHITE)
-        btnActivityPergunta2.setBackgroundColor(cor_cinza_btn_desabilitado)
-        btnActivityPergunta2.isEnabled = false
+        btnConfirmaRespostabActivityPergunta2.setTextColor(Color.WHITE)
+        btnConfirmaRespostabActivityPergunta2.setBackgroundColor(cor_cinza_btn_desabilitado)
+        btnConfirmaRespostabActivityPergunta2.isEnabled = false
     }
 }
