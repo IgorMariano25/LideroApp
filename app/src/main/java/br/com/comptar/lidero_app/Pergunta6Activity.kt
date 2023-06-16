@@ -24,8 +24,8 @@ class Pergunta6Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pergunta6)
 
-        val btnActivityPergunta1 = findViewById<Button>(R.id.btnConfResp)
-        btnActivityPergunta1.setOnClickListener {
+        btnConfirmaRespostaActivityPergunta6 = findViewById<Button>(R.id.btnConfResp)
+        btnConfirmaRespostaActivityPergunta6.setOnClickListener {
             //Exemplo de Intent Explicita
             val intent = Intent(this@Pergunta6Activity, Pergunta7Activity::class.java)
             startActivity(intent)
@@ -34,15 +34,15 @@ class Pergunta6Activity : AppCompatActivity() {
 
     //Função que habilita o botão de confirmar resposta quando alguma opção é selecionada
     private fun HabiltarButtonConfirmarResposta() {
-        btnConfirmaRespostaActivityPergunta1.setTextColor(Color.WHITE)
-        btnConfirmaRespostaActivityPergunta1.setBackgroundColor(cor_carbon_btn_habilitado)
-        btnConfirmaRespostaActivityPergunta1.isEnabled = true
+        btnConfirmaRespostaActivityPergunta6.setTextColor(Color.WHITE)
+        btnConfirmaRespostaActivityPergunta6.setBackgroundColor(cor_carbon_btn_habilitado)
+        btnConfirmaRespostaActivityPergunta6.isEnabled = true
     }
 
     private fun DesabilitarButtonConfirmarResposta() {
-        btnConfirmaRespostaActivityPergunta1.setTextColor(Color.WHITE)
-        btnConfirmaRespostaActivityPergunta1.setBackgroundColor(cor_cinza_btn_desabilitado)
-        btnConfirmaRespostaActivityPergunta1.isEnabled = false
+        btnConfirmaRespostaActivityPergunta6.setTextColor(Color.WHITE)
+        btnConfirmaRespostaActivityPergunta6.setBackgroundColor(cor_cinza_btn_desabilitado)
+        btnConfirmaRespostaActivityPergunta6.isEnabled = false
     }
 
     private fun selectButton(button: Button) {
