@@ -8,6 +8,10 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class Pergunta6Activity : AppCompatActivity() {
+
+    private lateinit var  btnConfirmaRespostaActivityPergunta6 : Button
+    private var selectedButton: View? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pergunta6)
