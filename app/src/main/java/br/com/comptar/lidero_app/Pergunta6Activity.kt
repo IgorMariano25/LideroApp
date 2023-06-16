@@ -3,6 +3,7 @@ package br.com.comptar.lidero_app
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
@@ -19,10 +20,11 @@ class Pergunta6Activity : AppCompatActivity() {
         }
     }
 
+    //Função que habilita o botão de confirmar resposta quando alguma opção é selecionada
     private fun HabiltarButtonConfirmarResposta() {
-        btnConfResp.setTextColor(Color.WHITE)
-        btnConfResp.setBackgroundColor(cor_verde_btn_habilitado)
-        btnConfResp.isEnabled = true
+        btnConfirmaRespostaActivityPergunta1.setTextColor(Color.WHITE)
+        btnConfirmaRespostaActivityPergunta1.setBackgroundColor(cor_carbon_btn_habilitado)
+        btnConfirmaRespostaActivityPergunta1.isEnabled = true
     }
 
     private fun DesabilitarButtonConfirmarRespoasta() {
