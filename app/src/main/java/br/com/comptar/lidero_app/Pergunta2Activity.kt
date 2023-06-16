@@ -44,4 +44,11 @@ class Pergunta2Activity : AppCompatActivity() {
         btnConfirmaRespostabActivityPergunta2.setBackgroundColor(cor_cinza_btn_desabilitado)
         btnConfirmaRespostabActivityPergunta2.isEnabled = false
     }
+
+        private fun selectButton(button: Button) {
+        selectedButton?.apply {
+            setBackgroundColor(Color.WHITE)
+        }
+        button.setBackgroundColor(cor_cinza_btn_clicado)
+    }
 }
