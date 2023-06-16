@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lidero-App</string>
+    <string name="app_name">Lidero</string>
     <string name="titulo_boas_vindas"><font color="#000000">Olá,</font> Danilo</string>
     <string name="email_perfil">DaniloCR@exemplo.com</string>
     <string name="textoSeuPerfil">Seu perfil</string>
