@@ -10,7 +10,7 @@ import androidx.core.content.ContextCompat.startActivity
 
 class Pergunta7Activity : AppCompatActivity() {
 
-    private lateinit var  btnConfirmaRespostaActivityPergunta1 : Button
+    private lateinit var  btnConfirmaRespostaActivityPergunta7 : Button
     private var selectedButton: View? = null
 
     //Criando cor para o botão confirmar resposta desabilitado
@@ -24,8 +24,8 @@ class Pergunta7Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pergunta7)
 
-        val btnActivityPergunta1 = findViewById<Button>(R.id.btnConfResp)
-        btnActivityPergunta1.setOnClickListener {
+        btnConfirmaRespostaActivityPergunta7 = findViewById<Button>(R.id.btnConfResp)
+        btnConfirmaRespostaActivityPergunta7.setOnClickListener {
             //Exemplo de Intent Explicita
             val intent = Intent(this@Pergunta7Activity, Pergunta8Activity::class.java)
             startActivity(intent)
@@ -34,15 +34,15 @@ class Pergunta7Activity : AppCompatActivity() {
 
     //Função que habilita o botão de confirmar resposta quando alguma opção é selecionada
     private fun HabiltarButtonConfirmarResposta() {
-        btnConfirmaRespostaActivityPergunta1.setTextColor(Color.WHITE)
-        btnConfirmaRespostaActivityPergunta1.setBackgroundColor(cor_carbon_btn_habilitado)
-        btnConfirmaRespostaActivityPergunta1.isEnabled = true
+        btnConfirmaRespostaActivityPergunta7.setTextColor(Color.WHITE)
+        btnConfirmaRespostaActivityPergunta7.setBackgroundColor(cor_carbon_btn_habilitado)
+        btnConfirmaRespostaActivityPergunta7.isEnabled = true
     }
 
     private fun DesabilitarButtonConfirmarResposta() {
-        btnConfirmaRespostaActivityPergunta1.setTextColor(Color.WHITE)
-        btnConfirmaRespostaActivityPergunta1.setBackgroundColor(cor_cinza_btn_desabilitado)
-        btnConfirmaRespostaActivityPergunta1.isEnabled = false
+        btnConfirmaRespostaActivityPergunta7.setTextColor(Color.WHITE)
+        btnConfirmaRespostaActivityPergunta7.setBackgroundColor(cor_cinza_btn_desabilitado)
+        btnConfirmaRespostaActivityPergunta7.isEnabled = false
     }
 
         private fun selectButton(button: Button) {
