@@ -10,6 +10,9 @@ import androidx.core.content.ContextCompat.startActivity
 
 class Pergunta2Activity : AppCompatActivity() {
 
+    private lateinit var  btnConfirmaRespostabActivityPergunta2 : Button
+    private var selectedButton: View? = null
+
     //Criando cor para o botão confirmar resposta desabilitado
     val cor_cinza_btn_desabilitado = Color.rgb(203,203,203)
     //Criando cor para o botão confirmar resposta habilitado
@@ -17,8 +20,6 @@ class Pergunta2Activity : AppCompatActivity() {
     // Criando uma nova cor para adicionar ao botão de respostas
     val cor_cinza_btn_clicado = Color.rgb(97, 97, 97)
 
-    private lateinit var  btnConfirmaRespostabActivityPergunta2 : Button
-    private var selectedButton: View? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pergunta2)
