@@ -34,26 +34,31 @@ class Pergunta6Activity : AppCompatActivity() {
         val btnDiscTotal1 = findViewById<Button>(R.id.btnDiscTotal)
         btnDiscTotal1.setOnClickListener {
             selectButton(btnDiscTotal1)
+            SharedData.organizador += 1
         }
 
         val btnDisc1 = findViewById<Button>(R.id.btnDisc)
         btnDisc1.setOnClickListener {
             selectButton(btnDiscTotal1)
+            SharedData.organizador += 2
         }
 
         val btnNem = findViewById<Button>(R.id.btnNemDiscNemCon)
         btnNem.setOnClickListener {
             selectButton(btnDiscTotal1)
+            SharedData.organizador += 3
         }
 
         val btnCon1 = findViewById<Button>(R.id.btnConcord)
         btnCon1.setOnClickListener {
             selectButton(btnDiscTotal1)
+            SharedData.organizador += 4
         }
 
         val btnConTotal1 = findViewById<Button>(R.id.btnConcorTotal)
         btnConTotal1 .setOnClickListener {
             selectButton(btnDiscTotal1)
+            SharedData.organizador += 5
         }
     }
 
