@@ -5,6 +5,7 @@ import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat.startActivity
 
@@ -30,7 +31,13 @@ class Pergunta3Activity : AppCompatActivity() {
             val intent = Intent(this@Pergunta3Activity, Pergunta4Activity::class.java)
             startActivity(intent)
         }
-    
+
+        val pularQuiz = findViewById<ImageButton>(R.id.btnExit)
+        pularQuiz.setOnClickListener{
+            val intent = Intent(this@Pergunta3Activity, Tela10Perifl::class.java)
+            startActivity(intent)
+        }
+
         val btnDiscTotal1 = findViewById<Button>(R.id.btnDiscTotal)
         btnDiscTotal1.setOnClickListener {
             selectButton(btnDiscTotal1)
