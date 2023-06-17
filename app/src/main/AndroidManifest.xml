@@ -24,14 +24,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Tela10Perifl"
-            android:exported="true"></activity>
-        <activity
-            android:name=".Tela11Cursos"
-            android:exported="true"></activity>
-        <activity
             android:name=".TelaCadastro"
-            android:exported="true"></activity>
+            android:exported="true"/>
+        <activity
+            android:name=".TelaTransicaoPerguntas"
+            android:exported="true" />
         <activity
             android:name=".Pergunta1Activity"
             android:exported="true" />
@@ -68,6 +65,12 @@
         <activity
             android:name=".Pergunta12Activity"
             android:exported="true" />
+        <activity
+            android:name=".Tela10Perifl"
+            android:exported="true"/>
+        <activity
+            android:name=".Tela11Cursos"
+            android:exported="true"/>
         <activity
             android:name=".ResultadoPerfil"
             android:exported="true" />
