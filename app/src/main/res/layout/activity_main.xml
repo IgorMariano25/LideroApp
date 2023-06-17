@@ -78,7 +78,7 @@
         app:layout_constraintVertical_bias="0.752" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnEntrar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="135dp"
@@ -106,21 +106,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.438" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cadastre-se"
-        android:textColor="#FF6600"
-        android:textSize="20dp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.826" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -197,16 +182,17 @@
         app:layout_constraintVertical_bias="0.208"
         app:srcCompat="@drawable/elipse_blur_laraja" />
 
-    <ImageView
-        android:id="@+id/login_svg"
-        android:layout_width="18dp"
-        android:layout_height="19dp"
-        android:elevation="2dp"
+    <Button
+        android:id="@+id/btnCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Cadastre-se"
+        android:textColor="#FF6600"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498"
-        app:srcCompat="@drawable/vector___login" />
+        app:layout_constraintVertical_bias="0.843" />
 </androidx.constraintlayout.widget.ConstraintLayout>
