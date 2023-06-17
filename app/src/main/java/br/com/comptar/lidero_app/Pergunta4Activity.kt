@@ -35,30 +35,35 @@ class Pergunta4Activity : AppCompatActivity() {
         btnDiscTotal1.setOnClickListener {
             selectButton(btnDiscTotal1)
             HabiltarButtonConfirmarResposta()
+            SharedData.fazedor += 1
         }
 
         val btnDisc1 = findViewById<Button>(R.id.btnDisc)
         btnDisc1.setOnClickListener {
             selectButton(btnDisc1)
             HabiltarButtonConfirmarResposta()
+            SharedData.fazedor += 2
         }
 
         val btnNem = findViewById<Button>(R.id.btnNemDiscNemCon)
         btnNem.setOnClickListener {
             selectButton(btnNem)
             HabiltarButtonConfirmarResposta()
+            SharedData.fazedor += 3
         }
 
         val btnCon1 = findViewById<Button>(R.id.btnConcord)
         btnCon1.setOnClickListener {
             selectButton(btnCon1)
             HabiltarButtonConfirmarResposta()
+            SharedData.fazedor += 4
         }
 
         val btnConTotal1 = findViewById<Button>(R.id.btnConcorTotal)
         btnConTotal1 .setOnClickListener {
             selectButton(btnConTotal1)
             HabiltarButtonConfirmarResposta()
+            SharedData.fazedor += 5
         }
         DesabilitarButtonConfirmarResposta()
     }
