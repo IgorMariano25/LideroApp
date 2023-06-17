@@ -1,6 +1,8 @@
 package br.com.comptar.lidero_app
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import br.com.comptar.lidero_app.SharedData.Companion.conector
@@ -14,6 +16,11 @@ class ResultadoPerfil : AppCompatActivity() {
         setContentView(R.layout.activity_resultado_perfil)
         exibirResultadoFinal()
 
+        val btnAvancar = findViewById<Button>(R.id.btnAvancar)
+        btnAvancar .setOnClickListener {
+            val intent = Intent(this@ResultadoPerfil, Tela11Cursos::class.java)
+            startActivity(intent)
+        }
 
     }
 

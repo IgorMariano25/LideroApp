@@ -75,5 +75,6 @@ a trilha que melhor atende a sua demanda de carreira é:"
         android:textSize="16dp"
         android:textStyle=""
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="173dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
