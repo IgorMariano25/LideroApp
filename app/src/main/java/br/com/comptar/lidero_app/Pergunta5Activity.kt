@@ -33,32 +33,38 @@ class Pergunta5Activity : AppCompatActivity() {
         val btnDiscTotal1 = findViewById<Button>(R.id.btnDiscTotal)
         btnDiscTotal1.setOnClickListener {
             selectButton(btnDiscTotal1)
+            HabiltarButtonConfirmarResposta()
             SharedData.gerador += 1
         }
 
         val btnDisc1 = findViewById<Button>(R.id.btnDisc)
         btnDisc1.setOnClickListener {
             selectButton(btnDisc1)
+            HabiltarButtonConfirmarResposta()
             SharedData.gerador += 2
         }
 
         val btnNem = findViewById<Button>(R.id.btnNemDiscNemCon)
         btnNem.setOnClickListener {
             selectButton(btnNem)
+            HabiltarButtonConfirmarResposta()
             SharedData.gerador += 3
         }
 
         val btnCon1 = findViewById<Button>(R.id.btnConcord)
         btnCon1.setOnClickListener {
             selectButton(btnCon1)
+            HabiltarButtonConfirmarResposta()
             SharedData.gerador += 4
         }
 
         val btnConTotal1 = findViewById<Button>(R.id.btnConcorTotal)
         btnConTotal1 .setOnClickListener {
             selectButton(btnConTotal1)
+            HabiltarButtonConfirmarResposta()
             SharedData.gerador += 5
         }
+        DesabilitarButtonConfirmarResposta()
     }
 
     //Função que habilita o botão de confirmar resposta quando alguma opção é selecionada
