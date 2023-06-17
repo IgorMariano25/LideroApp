@@ -1,5 +1,6 @@
 package br.com.comptar.lidero_app
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
@@ -11,7 +12,20 @@ class Tela10Perifl : AppCompatActivity (){
             supportActionBar?.hide()
             setContentView(R.layout.activity_tela_10_perfil)
             exibirResultadoFinal()
+
+            val tvRefaçaOQuiz = findViewById<TextView>(R.id.tvRefaçaOQuiz)
+            tvRefaçaOQuiz.setOnClickListener{
+                val intent = Intent(this@Tela10Perifl, Pergunta1Activity::class.java)
+                startActivity(intent)
+            }
+
+            val SetaRefaçaOQuiz = findViewById<ImageView>(R.id.ivSetaDireita2)
+            SetaRefaçaOQuiz.setOnClickListener{
+                val intent = Intent(this@Tela10Perifl, Pergunta1Activity::class.java)
+                startActivity(intent)
+            }
         }
+
     private fun exibirResultadoFinal() {
         var maior = SharedData.gerador
         var perfil : String = "Gerador"
