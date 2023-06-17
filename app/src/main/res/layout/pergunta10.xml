@@ -25,6 +25,7 @@
         android:id="@+id/porcentagem"
         android:layout_width="91dp"
         android:layout_height="101dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"

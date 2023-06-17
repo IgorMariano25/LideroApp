@@ -4,8 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
     android:background="@color/Lidero_Carbon"
     tools:context=".Pergunta1Activity">
 
@@ -21,18 +19,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/porcentagem" />
+        app:layout_constraintTop_toBottomOf="@+id/porcentagem"/>
 
     <ImageView
         android:id="@+id/porcentagem"
         android:layout_width="91dp"
         android:layout_height="101dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.088"
+        app:layout_constraintVertical_bias="0.101"
         app:srcCompat="@drawable/porcentagem0" />
 
     <ImageButton
@@ -75,9 +73,11 @@
 
     <ImageView
         android:id="@+id/retanguloAmarelo"
-        android:layout_width="400dp"
+        android:layout_width="430dp"
         android:layout_height="600dp"
         android:elevation="-2dp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
