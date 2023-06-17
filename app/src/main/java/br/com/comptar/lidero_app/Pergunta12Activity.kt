@@ -5,6 +5,7 @@ import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat.startActivity
 
@@ -28,6 +29,12 @@ class Pergunta12Activity : AppCompatActivity() {
         btnConfirmaRespostaActivityPergunta12.setOnClickListener {
             //Exemplo de Intent Explicita
             val intent = Intent(this@Pergunta12Activity, ResultadoPerfil::class.java)
+            startActivity(intent)
+        }
+
+        val pularQuiz = findViewById<ImageButton>(R.id.btnExit)
+        pularQuiz.setOnClickListener{
+            val intent = Intent(this@Pergunta12Activity, Tela10Perifl::class.java)
             startActivity(intent)
         }
 
