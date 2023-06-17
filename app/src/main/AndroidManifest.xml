@@ -12,6 +12,9 @@
         android:theme="@style/Theme.LideroApp"
         tools:targetApi="31">
         <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -22,57 +25,52 @@
         </activity>
         <activity
             android:name=".Tela10Perifl"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".Tela11Cursos"
-            android:exported="true">
-        </activity>
-
+            android:exported="true"></activity>
         <activity
             android:name=".TelaCadastro"
-            android:exported="true">
-        </activity>
-
+            android:exported="true"></activity>
         <activity
             android:name=".Pergunta1Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Pergunta2Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Pergunta3Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Pergunta4Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Pergunta5Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Pergunta6Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Pergunta7Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Pergunta8Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Pergunta9Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Pergunta10Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Pergunta11Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Pergunta12Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".ResultadoPerfil"
-            android:exported="true"/>
+            android:exported="true" />
     </application>
 
 </manifest>

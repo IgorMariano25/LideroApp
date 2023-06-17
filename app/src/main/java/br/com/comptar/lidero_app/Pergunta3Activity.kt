@@ -30,8 +30,33 @@ class Pergunta3Activity : AppCompatActivity() {
             val intent = Intent(this@Pergunta3Activity, Pergunta4Activity::class.java)
             startActivity(intent)
         }
-    }
+    
+        val btnDiscTotal1 = findViewById<Button>(R.id.btnDiscTotal)
+        btnDiscTotal1.setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
 
+        val btnDisc1 = findViewById<Button>(R.id.btnDisc)
+        btnDisc1.setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
+
+        val btnNem = findViewById<Button>(R.id.btnNemDiscNemCon)
+        btnNem.setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
+
+        val btnCon1 = findViewById<Button>(R.id.btnConcord)
+        btnCon1.setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
+
+        val btnConTotal1 = findViewById<Button>(R.id.btnConcorTotal)
+        btnConTotal1 .setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
+    }
+    
     //Função que habilita o botão de confirmar resposta quando alguma opção é selecionada
     private fun HabiltarButtonConfirmarResposta() {
         btnConfirmaRespostaActivityPergunta3.setTextColor(Color.WHITE)
@@ -44,11 +69,12 @@ class Pergunta3Activity : AppCompatActivity() {
         btnConfirmaRespostaActivityPergunta3.setBackgroundColor(cor_cinza_btn_desabilitado)
         btnConfirmaRespostaActivityPergunta3.isEnabled = false
     }
-
-        private fun selectButton(button: Button) {
+    
+    private fun selectButton(button: Button) {
         selectedButton?.apply {
             setBackgroundColor(Color.WHITE)
         }
         button.setBackgroundColor(cor_cinza_btn_clicado)
+        selectedButton = button
     }
 }

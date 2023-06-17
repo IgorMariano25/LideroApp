@@ -19,7 +19,7 @@ class Pergunta1Activity : AppCompatActivity() {
     val cor_carbon_btn_habilitado = Color.rgb(51,51,51)
     // Criando uma nova cor para adicionar ao botão de respostas
     val cor_cinza_btn_clicado = Color.rgb(97, 97, 97)
-
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pergunta1)
@@ -29,6 +29,31 @@ class Pergunta1Activity : AppCompatActivity() {
             //Exemplo de Intent Explicita
             val intent = Intent(this@Pergunta1Activity, Pergunta2Activity::class.java)
             startActivity(intent)
+        }
+
+        val btnDiscTotal1 = findViewById<Button>(R.id.btnDiscTotal)
+        btnDiscTotal1.setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
+
+        val btnDisc1 = findViewById<Button>(R.id.btnDisc)
+        btnDisc1.setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
+
+        val btnNem = findViewById<Button>(R.id.btnNemDiscNemCon)
+        btnNem.setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
+
+        val btnCon1 = findViewById<Button>(R.id.btnConcord)
+        btnCon1.setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
+
+        val btnConTotal1 = findViewById<Button>(R.id.btnConcorTotal)
+        btnConTotal1 .setOnClickListener {
+            selectButton(btnDiscTotal1)
         }
     }
 
@@ -44,11 +69,12 @@ class Pergunta1Activity : AppCompatActivity() {
         btnConfirmaRespostaActivityPergunta1.setBackgroundColor(cor_cinza_btn_desabilitado)
         btnConfirmaRespostaActivityPergunta1.isEnabled = false
     }
-
+    
     private fun selectButton(button: Button) {
         selectedButton?.apply {
             setBackgroundColor(Color.WHITE)
         }
         button.setBackgroundColor(cor_cinza_btn_clicado)
+        selectedButton = button
     }
 }

@@ -30,8 +30,28 @@ class Pergunta8Activity : AppCompatActivity() {
             val intent = Intent(this@Pergunta8Activity, Pergunta9Activity::class.java)
             startActivity(intent)
         }
-    }
 
+        val btnDisc1 = findViewById<Button>(R.id.btnDisc)
+        btnDisc1.setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
+
+        val btnNem = findViewById<Button>(R.id.btnNemDiscNemCon)
+        btnNem.setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
+
+        val btnCon1 = findViewById<Button>(R.id.btnConcord)
+        btnCon1.setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
+
+        val btnConTotal1 = findViewById<Button>(R.id.btnConcorTotal)
+        btnConTotal1 .setOnClickListener {
+            selectButton(btnDiscTotal1)
+        }
+    }
+    
     //Função que habilita o botão de confirmar resposta quando alguma opção é selecionada
     private fun HabiltarButtonConfirmarResposta() {
         btnConfirmaRespostaActivityPergunta8.setTextColor(Color.WHITE)
@@ -50,5 +70,6 @@ class Pergunta8Activity : AppCompatActivity() {
             setBackgroundColor(Color.WHITE)
         }
         button.setBackgroundColor(cor_cinza_btn_clicado)
+        selectedButton = button
     }
 }
