@@ -34,7 +34,7 @@ class Pergunta4Activity : AppCompatActivity() {
 
         val pularQuiz = findViewById<ImageButton>(R.id.btnExit)
         pularQuiz.setOnClickListener{
-            val intent = Intent(this@Pergunta1Activity, Tela10Perifl::class.java)
+            val intent = Intent(this@Pergunta4Activity, Tela10Perifl::class.java)
             startActivity(intent)
         }
   
