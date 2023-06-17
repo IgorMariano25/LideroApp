@@ -3,6 +3,7 @@ package br.com.comptar.lidero_app
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import br.com.comptar.lidero_app.SharedData.Companion.conector
@@ -25,7 +26,7 @@ class ResultadoPerfil : AppCompatActivity() {
     }
 
     private fun exibirResultadoFinal() {
-
+        val ImageView = findViewById<ImageView>(R.id.imageView6)
         var maior = SharedData.gerador
         var perfil : String = "gerador"
         var trilha : String = "Trilha Gerador"
@@ -35,6 +36,8 @@ class ResultadoPerfil : AppCompatActivity() {
             maior = SharedData.organizador
             perfil = "Organizador"
             trilha = "Trilha Organizador"
+            ImageView.setImageResource(R.drawable.vetor_perfil_organizador)
+
 
         }
 
@@ -42,12 +45,14 @@ class ResultadoPerfil : AppCompatActivity() {
             maior = SharedData.fazedor
             perfil = "Fazedor"
             trilha ="Trilha Fazedor"
+            ImageView.setImageResource(R.drawable.vetor_perfil_fazedor)
         }
 
         if (SharedData.conector > maior) {
             maior = SharedData.conector
             perfil ="Conector"
             trilha = "trilha Conector"
+            ImageView.setImageResource(R.drawable.vetor_perfil_conector)
         }
 
         val tvPerfil = findViewById<TextView>(R.id.textView2)
