@@ -33,22 +33,22 @@ class Pergunta8Activity : AppCompatActivity() {
 
         val btnDisc1 = findViewById<Button>(R.id.btnDisc)
         btnDisc1.setOnClickListener {
-            selectButton(btnDiscTotal1)
+            selectButton(btnDisc1)
         }
 
         val btnNem = findViewById<Button>(R.id.btnNemDiscNemCon)
         btnNem.setOnClickListener {
-            selectButton(btnDiscTotal1)
+            selectButton(btnNem)
         }
 
         val btnCon1 = findViewById<Button>(R.id.btnConcord)
         btnCon1.setOnClickListener {
-            selectButton(btnDiscTotal1)
+            selectButton(btnCon1)
         }
 
         val btnConTotal1 = findViewById<Button>(R.id.btnConcorTotal)
         btnConTotal1 .setOnClickListener {
-            selectButton(btnDiscTotal1)
+            selectButton(btnConTotal1)
         }
     }
     
