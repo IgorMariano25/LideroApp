@@ -24,7 +24,7 @@ class Pergunta9Activity : AppCompatActivity() {
     // Criando uma nova cor para adicionar ao botão de respostas
     val cor_cinza_btn_clicado = Color.rgb(97, 97, 97)
 
-        val btnConfirmaRespostaActivityPergunta9 = findViewById<Button>(R.id.btnConfResp)
+        btnConfirmaRespostaActivityPergunta9 = findViewById<Button>(R.id.btnConfResp)
         btnConfirmaRespostaActivityPergunta9.setOnClickListener {
             //Exemplo de Intent Explicita
             val intent = Intent(this@Pergunta9Activity, Pergunta10Activity::class.java)
