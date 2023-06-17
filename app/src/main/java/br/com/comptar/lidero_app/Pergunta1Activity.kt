@@ -5,6 +5,8 @@ import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageButton
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat.startActivity
 import br.com.comptar.lidero_app.SharedData.Companion.gerador
@@ -29,6 +31,12 @@ class Pergunta1Activity : AppCompatActivity() {
         btnConfirmaRespostaActivityPergunta1.setOnClickListener {
             //Exemplo de Intent Explicita
             val intent = Intent(this@Pergunta1Activity, Pergunta2Activity::class.java)
+            startActivity(intent)
+        }
+
+        val pularQuiz = findViewById<ImageButton>(R.id.btnExit)
+        pularQuiz.setOnClickListener{
+            val intent = Intent(this@Pergunta1Activity, Tela10Perifl::class.java)
             startActivity(intent)
         }
 
