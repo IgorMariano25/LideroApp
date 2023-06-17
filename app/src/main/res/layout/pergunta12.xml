@@ -61,100 +61,89 @@
         app:layout_constraintVertical_bias="0.02"
         app:srcCompat="@drawable/arrowback" />
 
-    <Button
-        android:id="@+id/btnDiscTotal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:width="280dp"
-        android:backgroundTint="@color/btn_resposta"
-        android:text="Discordo totalmente"
-        android:textColor="@color/black"
-        app:cornerRadius="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <LinearLayout
+        android:id="@+id/llPergunta12"
+        android:layout_width="300dp"
+        android:layout_height="375dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btnConfResp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393" />
+        app:layout_constraintTop_toBottomOf="@+id/pergunta"
+        app:layout_constraintStart_toStartOf="parent">
 
-    <Button
-        android:id="@+id/btnDisc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:width="280dp"
-        android:backgroundTint="@color/btn_resposta"
-        android:text="Discordo"
-        android:textColor="@color/black"
-        app:cornerRadius="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481" />
 
-    <Button
-        android:id="@+id/btnNemDiscNemCon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:width="280dp"
-        android:backgroundTint="@color/btn_resposta"
-        android:text="Não discordo/nem concordo"
-        android:textColor="@color/black"
-        app:cornerRadius="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576" />
+        <Button
+            android:id="@+id/btnDiscTotal"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:text="Discordo totalmente"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp" />
 
-    <Button
-        android:id="@+id/btnConcord"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:width="280dp"
-        android:backgroundTint="@color/btn_resposta"
-        android:text="Concordo"
-        android:textColor="@color/black"
-        app:cornerRadius="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.68" />
+        <Button
+            android:id="@+id/btnDisc"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:text="Discordo"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp" />
 
-    <Button
-        android:id="@+id/btnConcorTotal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:width="280dp"
-        android:backgroundTint="@color/btn_resposta"
-        android:text="Concordo totalmente"
-        android:textColor="@color/black"
-        app:cornerRadius="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
+        <Button
+            android:id="@+id/btnNemDiscNemCon"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:text="Não discordo/nem concordo"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/btnConcord"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:text="Concordo"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/btnConcorTotal"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:text="Concordo totalmente"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/btnConfResp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="640dp"
-        android:width="210dp"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="@color/Lidero_Carbon"
         android:text="Confirmar resposta"
         android:textColor="@color/white"
-        app:cornerRadius="10dp"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/btnExit"
