@@ -16,8 +16,8 @@ class Pergunta12Activity : AppCompatActivity() {
 
     //Criando cor para o botão confirmar resposta desabilitado
     val cor_cinza_btn_desabilitado = Color.rgb(203,203,203)
-    //Criando cor para o botão confirmar resposta habilitado
-    val cor_carbon_btn_habilitado = Color.rgb(51,51,51)
+    //Criando cor para o botão enviar resposta habilitado
+    val cor_verde_btn_habilitado = Color.rgb(0,189,133)
     // Criando uma nova cor para adicionar ao botão de respostas
     val cor_cinza_btn_clicado = Color.rgb(97, 97, 97)
     
@@ -79,7 +79,7 @@ class Pergunta12Activity : AppCompatActivity() {
     //Função que habilita o botão de confirmar resposta quando alguma opção é selecionada
     private fun HabiltarButtonConfirmarResposta() {
         btnConfirmaRespostaActivityPergunta12.setTextColor(Color.WHITE)
-        btnConfirmaRespostaActivityPergunta12.setBackgroundColor(cor_carbon_btn_habilitado)
+        btnConfirmaRespostaActivityPergunta12.setBackgroundColor(cor_verde_btn_habilitado)
         btnConfirmaRespostaActivityPergunta12.isEnabled = true
     }
 
