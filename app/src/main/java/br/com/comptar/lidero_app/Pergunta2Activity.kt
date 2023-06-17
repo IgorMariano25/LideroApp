@@ -31,6 +31,12 @@ class Pergunta2Activity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val pularQuiz = findViewById<ImageButton>(R.id.btnExit)
+        pularQuiz.setOnClickListener{
+            val intent = Intent(this@Pergunta1Activity, Tela10Perifl::class.java)
+            startActivity(intent)
+        }
+
         val btnDiscTotal1 = findViewById<Button>(R.id.btnDiscTotal)
         btnDiscTotal1.setOnClickListener {
             selectButton(btnDiscTotal1)
