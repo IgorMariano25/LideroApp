@@ -14,4 +14,5 @@
     <color name="Minicurso_Azul">#1E62AE</color>
     <color name="Minicurso_Verde">#409833</color>
     <color name="btn_resposta">#F9F9F9</color>
+    <color name="cor_cinza_btn_desabilitado">#cbcbcb</color>
 </resources>
