@@ -60,9 +60,11 @@
 
     <ImageView
         android:id="@+id/retanguloAmarelo"
-        android:layout_width="400dp"
+        android:layout_width="430dp"
         android:layout_height="600dp"
         android:elevation="-2dp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
