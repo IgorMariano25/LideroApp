@@ -29,7 +29,6 @@ class Pergunta7Activity : AppCompatActivity() {
             val intent = Intent(this@Pergunta7Activity, Pergunta8Activity::class.java)
             startActivity(intent)
         }
-    }
 
         val btnDiscTotal1 = findViewById<Button>(R.id.btnDiscTotal)
         btnDiscTotal1.setOnClickListener {
