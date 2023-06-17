@@ -35,7 +35,7 @@ class Pergunta2Activity : AppCompatActivity() {
     //Função que habilita o botão de confirmar resposta quando alguma opção é selecionada
     private fun HabiltarButtonConfirmarResposta() {
         btnConfirmaRespostabActivityPergunta2.setTextColor(Color.WHITE)
-        btnConfirmaRespostabActivityPergunta2.setBackgroundColor(cor_verde_btn_habilitado)
+        btnConfirmaRespostabActivityPergunta2.setBackgroundColor(cor_carbon_btn_habilitado)
         btnConfirmaRespostabActivityPergunta2.isEnabled = true
     }
 
