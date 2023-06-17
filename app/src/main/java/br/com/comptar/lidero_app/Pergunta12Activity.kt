@@ -40,25 +40,25 @@ class Pergunta12Activity : AppCompatActivity() {
 
         val btnDisc1 = findViewById<Button>(R.id.btnDisc)
         btnDisc1.setOnClickListener {
-            selectButton(btnDiscTotal1)
+            selectButton(btnDisc1)
             SharedData.fazedor += 2
         }
 
         val btnNem = findViewById<Button>(R.id.btnNemDiscNemCon)
         btnNem.setOnClickListener {
-            selectButton(btnDiscTotal1)
+            selectButton(btnNem)
             SharedData.fazedor += 3
         }
 
         val btnCon1 = findViewById<Button>(R.id.btnConcord)
         btnCon1.setOnClickListener {
-            selectButton(btnDiscTotal1)
+            selectButton(btnCon1)
             SharedData.fazedor += 4
         }
 
         val btnConTotal1 = findViewById<Button>(R.id.btnConcorTotal)
         btnConTotal1 .setOnClickListener {
-            selectButton(btnDiscTotal1)
+            selectButton(btnConTotal1)
             SharedData.fazedor += 5
         }
     }
