@@ -34,27 +34,33 @@ class Pergunta1Activity : AppCompatActivity() {
         val btnDiscTotal1 = findViewById<Button>(R.id.btnDiscTotal)
         btnDiscTotal1.setOnClickListener {
             selectButton(btnDiscTotal1)
+            HabiltarButtonConfirmarResposta()
         }
 
         val btnDisc1 = findViewById<Button>(R.id.btnDisc)
         btnDisc1.setOnClickListener {
-            selectButton(btnDiscTotal1)
+            selectButton(btnDisc1)
+            HabiltarButtonConfirmarResposta()
         }
 
         val btnNem = findViewById<Button>(R.id.btnNemDiscNemCon)
         btnNem.setOnClickListener {
-            selectButton(btnDiscTotal1)
+            selectButton(btnNem)
+            HabiltarButtonConfirmarResposta()
         }
 
         val btnCon1 = findViewById<Button>(R.id.btnConcord)
         btnCon1.setOnClickListener {
-            selectButton(btnDiscTotal1)
+            selectButton(btnCon1)
+            HabiltarButtonConfirmarResposta()
         }
 
         val btnConTotal1 = findViewById<Button>(R.id.btnConcorTotal)
         btnConTotal1 .setOnClickListener {
-            selectButton(btnDiscTotal1)
+            selectButton(btnConTotal1)
+            HabiltarButtonConfirmarResposta()
         }
+        DesabilitarButtonConfirmarResposta()
     }
 
     //Função que habilita o botão de confirmar resposta quando alguma opção é selecionada
