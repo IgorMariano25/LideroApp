@@ -33,6 +33,7 @@ class Pergunta8Activity : AppCompatActivity() {
 
         val btnDiscTotal1 = findViewById<Button>(R.id.btnDiscTotal)
         btnDiscTotal1.setOnClickListener {
+            HabiltarButtonConfirmarResposta()
             selectButton(btnDiscTotal1)
             SharedData.fazedor += 1
         }
