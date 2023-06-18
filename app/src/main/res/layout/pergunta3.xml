@@ -7,18 +7,18 @@
     android:background="@color/Lidero_Carbon">
 
     <TextView
+        android:text="Prefiro atuar colaborando em equipes, criando coletivamente"
         android:id="@+id/pergunta"
         android:layout_width="285dp"
         android:layout_height="87dp"
-        android:text="Prefiro atuar colaborando em equipes, criando coletivamente"
+        android:layout_marginTop="64dp"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="22dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.254" />
+        app:layout_constraintTop_toBottomOf="@+id/porcentagem"/>
 
     <ImageView
         android:id="@+id/porcentagem"
@@ -37,15 +37,16 @@
         android:id="@+id/contQuestao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:text="Questão 3/12"
         android:textColor="@color/white"
-        android:textSize="16dp"
+        android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="@+id/retanAmarelo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.009" />
 
     <ImageButton
         android:id="@+id/Arrowback"
