@@ -2,6 +2,7 @@ package br.com.comptar.lidero_app
 
 import android.content.Intent
 import android.graphics.Color
+import android.net.Uri
 import android.os.Bundle
 import android.text.Spannable
 import android.text.SpannableString
@@ -10,10 +11,6 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import br.com.comptar.lidero_app.SharedData.Companion.conector
-import br.com.comptar.lidero_app.SharedData.Companion.fazedor
-import br.com.comptar.lidero_app.SharedData.Companion.gerador
-import br.com.comptar.lidero_app.SharedData.Companion.organizador
 
 class ResultadoPerfil : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,10 +24,16 @@ class ResultadoPerfil : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val linkVerTrilhaSiteLidero = findViewById<TextView>(R.id.tvVerTrilha)
+        linkVerTrilhaSiteLidero.setOnClickListener {
+            val URL = Uri.parse("https://lidero.com.br/produtos/")
+            val intent = Intent(Intent.ACTION_VIEW, URL)
+            startActivity(intent)
+        }
     }
 
     private fun exibirResultadoFinal() {
-        val ImageView = findViewById<ImageView>(R.id.imageView6)
+        val ImageView = findViewById<ImageView>(R.id.ivResultadoPerfil)
         var maior = SharedData.gerador
         var perfil : String = "gerador"
         var trilhaRecomendada : String = "Rumo ao crescimento \uD83C\uDD99☝️"
