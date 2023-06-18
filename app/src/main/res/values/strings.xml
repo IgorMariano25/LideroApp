@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Lidero</string>
     <string name="titulo_boas_vindas"><font color="#000000">Olá,</font> Danilo</string>
+    <string name="ConhecendoMelhorSeuPerfil">Precisamos te <font color="#FF6600"><b>conhecer melhor</b></font> para recomendarmos sua trilha de<font color="#FF6600"><b>cursos</b></font>, por isso, elaboramos 12 perguntas <font color="#FF6600"><b>especialmente para você</b></font> !</string>
+    <string name="textoBtnContinuar">Continuar...</string>
     <string name="email_perfil">DaniloCR@exemplo.com</string>
     <string name="textoSeuPerfil">Seu perfil</string>
     <string name="resultadoPerfil">Gerador</string>
