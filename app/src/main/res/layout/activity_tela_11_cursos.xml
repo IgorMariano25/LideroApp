@@ -214,13 +214,14 @@
         app:layout_constraintStart_toEndOf="@+id/ivCursoComunicacao_e_oratoria_fundamento_e_postuta"
         app:layout_constraintTop_toBottomOf="@+id/imBarraDeProgressoCursoComunicacaoEOratoriaFundamentosEPostura" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/ivVetorHome"
         android:layout_width="75dp"
         android:layout_height="60dp"
         android:elevation="4dp"
         android:src="@drawable/vetor_home"
         android:contentDescription="@string/VetorCasaBranca"
+        android:backgroundTint="@color/Lidero_Carbon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.101"
@@ -228,13 +229,14 @@
         app:layout_constraintTop_toTopOf="@+id/Barra_De_Navegacao_Inferior"
         app:layout_constraintVertical_bias="0.297" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/ivVetorCursos"
         android:layout_width="75dp"
         android:layout_height="60dp"
         android:elevation="4dp"
         android:src="@drawable/vetor_play"
         android:contentDescription="@string/VetorPlayCursosBranco"
+        android:backgroundTint="@color/Lidero_Carbon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -242,13 +244,14 @@
         app:layout_constraintVertical_bias="0.297"
         app:tint="@color/Lidero_Amarelo_Ouro" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/ivVetorPerfil"
         android:layout_width="75dp"
         android:layout_height="60dp"
         android:elevation="4dp"
         android:src="@drawable/vetor_perfil"
         android:contentDescription="@string/VetorPerfiAmarelo"
+        android:backgroundTint="@color/Lidero_Carbon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.88"
