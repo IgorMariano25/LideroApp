@@ -215,7 +215,8 @@
         app:layout_constraintHorizontal_bias="0.101"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/Barra_De_Navegacao_Inferior"
-        app:layout_constraintVertical_bias="0.297" />
+        app:layout_constraintVertical_bias="0.297"
+        app:tint="@color/Lidero_Amarelo_Ouro"/>
 
     <ImageView
         android:id="@+id/ivVetorCursos"
@@ -242,7 +243,9 @@
         app:layout_constraintHorizontal_bias="0.88"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/Barra_De_Navegacao_Inferior"
-        app:layout_constraintVertical_bias="0.324" />
+        app:layout_constraintVertical_bias="0.324"
+        app:tint="@color/white"
+        />
 
     <TextView
         android:id="@+id/tvMenu"
@@ -253,7 +256,7 @@
         android:gravity="center_horizontal"
         android:text="@string/Menu"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/Lidero_Amarelo_Ouro"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -286,7 +289,7 @@
         android:gravity="center_horizontal"
         android:text="@string/Perfil"
         android:textAlignment="center"
-        android:textColor="@color/Lidero_Amarelo_Ouro"
+        android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvCursos"
