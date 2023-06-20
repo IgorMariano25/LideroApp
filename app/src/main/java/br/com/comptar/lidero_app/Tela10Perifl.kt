@@ -2,6 +2,7 @@ package br.com.comptar.lidero_app
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -12,6 +13,20 @@ class Tela10Perifl : AppCompatActivity (){
             supportActionBar?.hide()
             setContentView(R.layout.activity_tela_10_perfil)
             exibirResultadoFinal()
+
+            val btnGoToHome = findViewById<ImageButton>(R.id.ivVetorHome)
+            btnGoToHome.setOnClickListener {
+                //Exemplo de Intent Explicita
+                val intent = Intent(this@Tela10Perifl, HomeActivity::class.java)
+                startActivity(intent)
+            }
+
+            val btnGoToCursos = findViewById<ImageButton>(R.id.ivVetorCursos)
+            btnGoToCursos.setOnClickListener {
+                //Exemplo de Intent Explicita
+                val intent = Intent(this@Tela10Perifl, Tela11Cursos::class.java)
+                startActivity(intent)
+            }
 
             val tvRefaçaOQuiz = findViewById<TextView>(R.id.tvRefaçaOQuiz)
             tvRefaçaOQuiz.setOnClickListener{

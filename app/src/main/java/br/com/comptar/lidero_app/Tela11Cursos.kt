@@ -18,7 +18,7 @@ class Tela11Cursos : AppCompatActivity (){
             startActivity(intent)
         }
 
-        val btnGoToHome = findViewById<ImageButton>(R.id.ivVetorCursos)
+        val btnGoToHome = findViewById<ImageButton>(R.id.ivVetorHome)
         btnGoToHome.setOnClickListener {
             //Exemplo de Intent Explicita
             val intent = Intent(this@Tela11Cursos, HomeActivity::class.java)
