@@ -203,12 +203,13 @@
         app:layout_constraintVertical_bias="0.778"
         app:srcCompat="@drawable/cursosbanner" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/ivVetorHome"
         android:layout_width="75dp"
         android:layout_height="60dp"
         android:elevation="4dp"
         android:src="@drawable/vetor_home"
+        android:backgroundTint="@color/Lidero_Carbon"
         android:contentDescription="@string/VetorCasaBranca"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -218,12 +219,13 @@
         app:layout_constraintVertical_bias="0.297"
         app:tint="@color/Lidero_Amarelo_Ouro"/>
 
-    <ImageView
+    <ImageButton
         android:id="@+id/ivVetorCursos"
         android:layout_width="75dp"
         android:layout_height="60dp"
         android:elevation="4dp"
         android:src="@drawable/vetor_play"
+        android:backgroundTint="@color/Lidero_Carbon"
         android:contentDescription="@string/VetorPlayCursosBranco"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -231,12 +233,13 @@
         app:layout_constraintTop_toTopOf="@+id/Barra_De_Navegacao_Inferior"
         app:layout_constraintVertical_bias="0.297" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/ivVetorPerfil"
         android:layout_width="75dp"
         android:layout_height="60dp"
         android:elevation="4dp"
         android:src="@drawable/vetor_perfil"
+        android:backgroundTint="@color/Lidero_Carbon"
         android:contentDescription="@string/VetorPerfiAmarelo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
