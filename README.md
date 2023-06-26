@@ -13,6 +13,13 @@
 - [Figma do projeto](https://www.figma.com/file/SyhNZ1v5wzZ4mBBcWO9IWC/Lidero?type=design&node-id=0%3A1&t=0rTHu2t8p4Brf8kw-1)
 
 
+## ⚠️ Observações
+1 - Aplicativo não está com responsividade implementada pois a equipe optou por desenvolver o app para apresentação visual e funcional apenas em um dispositivo;\
+2 - Modelo de telefone utilizado para testes e apresentação do projeto: SAMSUNG GALAXY S10+;
+  - Específicações do SAMSUNG GALAXY S10+
+    - Tamanho de tela do: 6.4 polegadas;
+    - Resolução: 3040x1440 pixels;
+
 ## :link: Links úteis 
 
 - [Formatação Markdown do Gitlab](https://docs.gitlab.com/ee/user/markdown.html)
