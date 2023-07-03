@@ -11,6 +11,7 @@
 
 ## 📱 Protótipo  
 - [Figma do projeto](https://www.figma.com/file/SyhNZ1v5wzZ4mBBcWO9IWC/Lidero?type=design&node-id=0%3A1&t=0rTHu2t8p4Brf8kw-1)
+- [Overview do projeto no figma](https://www.figma.com/file/SyhNZ1v5wzZ4mBBcWO9IWC/Lidero?type=design&node-id=0%3A1&mode=design&t=aIr69AzrVTIHVawc-1)
 
 
 ## ⚠️ Observações
